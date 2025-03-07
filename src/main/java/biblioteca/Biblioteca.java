@@ -1,3 +1,6 @@
+package biblioteca;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -59,7 +62,7 @@ public class Biblioteca {
      */
     public Libro encuentraLibroPorTitulo(String titulo) {
         for (Libro libro : libros) {
-            if (libro.getTitulo().equals(titulo)) {
+            if (libro.getTitulo().equals(titulo)){
                 return libro;
             }
         }
